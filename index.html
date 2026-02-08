@@ -15,20 +15,36 @@
 </head>
 
 <body class="bg-secondary">
-    <header class="bg-dark d-flex flex-wrap justify-content-center py-3 mb-4">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+    <header class="mb-3">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+
+            <a href="/" class="navbar-brand d-flex align-items-center text-white">
+                <svg class="bi me-2" width="40" height="32" aria-hidden="true">
                 <use xlink:href="#bootstrap"></use>
-            </svg> <span class="fs-4 text-white">Velocity Run</span> </a>
-        <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="btn btn-secondary" aria-current="page">Inicio</a></li>
-            <li class="nav-item"><a href="#running" class="btn btn-outline-light border-0">Running</a></li>
-            <li class="nav-item"><a href="#entrenamiento" class="btn btn-outline-light border-0">Entrenamiento</a></li>
-            <li class="nav-item"><a href="#lifestyle" class="btn btn-outline-light border-0">Lifestyle</a></li>
-            <li class="nav-item"><a href="#edicion-especial" class="btn btn-outline-light border-0">Edicion Especial</a></li>
-            <li class="nav-item"><a href="#contactanos" class="btn btn-outline-light border-0">Contactanos</a></li>
-        </ul>
+                </svg>
+                <span class="fs-4">Velocity Run</span>
+            </a>
+
+            <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="btn btn-secondary me-2">Inicio</a></li>
+                <li class="nav-item"><a href="#running" class="btn btn-outline-light border-0 me-2">Running</a></li>
+                <li class="nav-item"><a href="#entrenamiento" class="btn btn-outline-light border-0 me-2">Entrenamiento</a></li>
+                <li class="nav-item"><a href="#lifestyle" class="btn btn-outline-light border-0 me-2">Lifestyle</a></li>
+                <li class="nav-item"><a href="#edicion-especial" class="btn btn-outline-light border-0 me-2">Edición Especial</a></li>
+                <li class="nav-item"><a href="#contactanos" class="btn btn-outline-light border-0">Contáctanos</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
     </header>
+
     <section class="container d-flex flex-column">
 
         <section class="bg-dark text-white px-4 py-4 rounded">
